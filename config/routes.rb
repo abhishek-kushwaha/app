@@ -1,5 +1,5 @@
 App::Application.routes.draw do
-  devise_for :users, path_names: {sign_in: "login", sign_out: "logout"}
+  devise_for :users, path_names: {sign_in: "login", sign_out: "logout", sign_up: "register"}
   get "staticpages/home"
   get "staticpages/help"
   get "staticpages/aboutus"
